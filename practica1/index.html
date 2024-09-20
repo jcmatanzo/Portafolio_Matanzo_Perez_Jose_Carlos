@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 1 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Práctica 1: Circuito integrado 555</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/JCMP.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">José Carlos Matanzo Pérez</div>
+                                <div class="text-muted">Ingeniería Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+                        <br>
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                        <img class="img-fluid rounded-circle" width="50px" src="assets/CarlosV.jpg" alt="..." />
+                        <div class="ms-2">
+                            <div class="fw-bold">José Carlos Valencia Vázquez</div>
+                            <div class="text-muted">Ingeniería Mecatrónica</div>
+                        </div>
+                    <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Agosto 16, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Integrado 555</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/Circuito_Integrado.jpg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">Esta práctica se centró en la implementación de un circuito de reloj utilizando el circuito integrado 555, modulado mediante un potenciómetro. El objetivo principal fue crear un sistema que permitiera controlar la frecuencia de parpadeo de un LED ajustando la resistencia del potenciómetro.</p>
+                        <p class="fs-6 mb-4">Además de lograr este objetivo técnico, la práctica sirvió como una valiosa oportunidad para familiarizarnos con diversos componentes electrónicos y perfeccionar nuestras habilidades en el ensamblaje de circuitos en protoboard.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">En el ámbito de la lógica digital, las señales de reloj desempeñan un papel crucial en la sincronización de sistemas. Estas señales se caracterizan por oscilaciones periódicas entre estados altos y bajos, proporcionando un pulso constante que coordina las operaciones de los componentes digitales.</p>
+                        <p class="fs-6 mb-4">En el contexto de nuestra práctica, aprovechamos este principio para crear un circuito que genera una señal de reloj visible. Utilizamos esta señal para controlar el parpadeo de un LED, implementando además un mecanismo de control directo sobre la frecuencia de las oscilaciones mediante un potenciómetro. Este enfoque práctico nos permitió observar de manera tangible los efectos de la modulación de frecuencia en un sistema simple pero funcional.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">1. Protoboard.</p>
+                        <p class="fs-6 mb-4">2. Circuito Integrado 555.</p>
+                        <p class="fs-6 mb-4">3. Batería 9V.</p>
+                        <p class="fs-6 mb-4">4. Potenciómetro 10kΩ.</p>
+                        <p class="fs-6 mb-4">5. Capacitor 47μF.</p>
+                        <p class="fs-6 mb-4">6. Resistencia 1kΩ (2 unidades).</p>
+                        <p class="fs-6 mb-4">7. Resistencia 220Ω.</p>
+                        <p class="fs-6 mb-4">8. Transistor NPN.</p>
+                        <p class="fs-6 mb-4">9. LED.</p>
+                        <p class="fs-6 mb-4">10. Cables.</p>
+
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Comenzamos por diseñar el circuito en el software Multisim, familiarizandonos con el programa y observando el comportamiento esperado del sistema. Posteriormente realizamos la simulación del circuito en la plataforma en línea Tinkercad, la cual nos permitió observar más a detalle el enambjale del circuito en un protoboard.</p>
+                        <p class="fs-6 mb-4">Finalmente realizamos el circuito de manera física, utilizando los mismos componentes que simulamos. El circuito se comportó como en los simuladores, sin embargo, experimentamos algunas fallas, probablemente debidas al estado de los componentes que fueron utilizados, esto fue resuelto reemplazando algunos de los componentes y asegurandonos que se econtraran firmemente colocados en sus posiciones correspondientes.</p>
+                        
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4">La primera simulación se realizó en Multisim, lo que nos permitió verificar el comportamiento teórico del circuito. Esta herramienta nos proporcionó una visión inicial de cómo las diferentes partes del circuito interactúan entre sí y cómo los cambios en el potenciómetro afectarían la frecuencia de la señal de salida.</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/555_Multisim.mp4" type="video/mp4">
+                            </video></p></figure>    
+                            <p class="fs-6 mb-4">Posteriormente, trasladamos nuestro diseño a la plataforma en línea Tinkercad. Esta simulación fue particularmente útil ya que nos ofreció una representación visual más cercana a la realidad del montaje en protoboard. Tinkercad nos permitió realizar ajustes finos en el diseño y observar el comportamiento del LED en tiempo real, proporcionando una valiosa perspectiva previa a la construcción física.</p>
+                            <figure class="mb-4" align="center"><video width="80%"  controls>
+                                <source src="video/555_Tinkercad.mp4" type="video/mp4">
+                            </video></p></figure>
+                    
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">Como fue previamente mencionado, iniciamos el proyecto diseñando el circuito en el software Multisim. Esta etapa fue crucial para comprender la disposición de los componentes y las conexiones necesarias. El diseño se centró en la configuración específica requerida por el circuito integrado 555, donde cada pin cumple una función determinada en la generación de la señal de reloj.</p>
+                            
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">La fase final consistió en la implementación física del circuito. Utilizando como guía las simulaciones previas, procedimos al ensamblaje de los componentes en el protoboard. Durante este proceso, nos enfrentamos a algunos desafíos prácticos:</p>
+                            <p class="fs-6 mb-4">1. Identificamos defectos en algunos puntos de conexión del protoboard, que causaban irregularidades en el parpadeo del LED.</p>
+                            <p class="fs-6 mb-4">2. Resolvimos estos problemas aplicando presión adicional en los puntos de conexión críticos y, en algunos casos, reemplazando componentes que mostraban signos de desgaste.</p>
+                            <p class="fs-6 mb-4">3. Nos aseguramos de que todos los componentes estuvieran firmemente colocados en sus posiciones correspondientes para garantizar un funcionamiento estable.</p>
+                            <p class="fs-6 mb-4">Estas dificultades, aunque inicialmente frustrantes, proporcionaron una valiosa experiencia en la resolución de problemas prácticos en circuitos electrónicos.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/construccion555.png" alt="..." /></figure>
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">El circuito se construyó con éxito, logrando el objetivo principal de controlar las oscilaciones del 555 mediante el potenciómetro. Esto se tradujo en un control efectivo sobre la frecuencia de parpadeo del LED.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/circuito555.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">La realización de esta práctica fue exitosa en múltiples aspectos:</p>
+                        <p class="fs-6 mb-4">1. Logramos implementar el circuito objetivo tanto en entornos de simulación como en su construcción física.</p>
+                        <p class="fs-6 mb-4">2. El circuito cumplió con las funciones esperadas, generando oscilaciones controlables que se manifestaron visualmente en el parpadeo del LED.</p>
+                        <p class="fs-6 mb-4">3. La experiencia nos permitió profundizar en el funcionamiento del circuito integrado 555 y su aplicación en la generación de señales de reloj.</p>
+                        <p class="fs-6 mb-4">4. Desarrollamos habilidades prácticas en el montaje de circuitos y en la resolución de problemas comunes en la electrónica práctica.</p>
+                        <p class="fs-6 mb-4">5. La combinación de diseño teórico, simulación y construcción física nos proporcionó una comprensión integral del proceso de desarrollo de circuitos electrónicos.</p>
+                        <p class="fs-6 mb-4">Esta práctica no solo cumplió con sus objetivos técnicos, sino que también sirvió como una valiosa experiencia de aprendizaje, preparándonos para abordar proyectos más complejos en el futuro.</p>
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">alldatasheet.com. (n.d.). LM555 PDF. https://www.alldatasheet.com/datasheet-pdf/view/791941/TI1/LM555.html.</p>
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Descargar documento pdf: <a href="files/555.pdf">documento.pdf</a> </p>
+                        <p class="fs-6 mb-4">Descargar archivo MS14: <a href="files/555 Potenciómetro.ms14">archivo.MS14</a> </p>
+
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
