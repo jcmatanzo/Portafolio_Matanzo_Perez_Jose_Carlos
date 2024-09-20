@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 4 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1"></h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/JCMP.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">José Carlos Matanzo Pérez</div>
+                                <div class="text-muted">Ingeniería Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+                        <br>
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                        <img class="img-fluid rounded-circle" width="50px" src="assets/CarlosV.jpg" alt="..." />
+                        <div class="ms-2">
+                            <div class="fw-bold">José Carlos Valencia Vázquez</div>
+                            <div class="text-muted">Ingeniería Mecatrónica</div>
+                        </div>
+                    <!--Aqui termina etiqueta de alumno-->
+                    
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Septiembre 6, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/Arduino_BP.jpeg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">Esta práctica se centra en el uso de entradas digitales del Arduino UNO, explorando diferentes configuraciones y aplicaciones de botones para controlar LEDs y crear sistemas interactivos simples.</p>
+           
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">El manejo de entradas digitales es fundamental en la programación de microcontroladores.</p>
+                        <p class="fs-6 mb-4">Esta práctica nos permite comprender cómo el Arduino UNO interpreta señales de entrada y cómo podemos utilizar esta información para controlar diferentes componentes electrónicos.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">1. Placa Arduino UNO.</p>
+                        <p class="fs-6 mb-4">2. Cable USB para la conexión con el ordenador.</p>
+                        <p class="fs-6 mb-4">3. Protoboard.</p>
+                        <p class="fs-6 mb-4">4. Push button (2 unidades)</p>
+                        <p class="fs-6 mb-4">5. Resistencias 220Ω (4 unidades)</p>
+                        <p class="fs-6 mb-4">6. Resistencias 1kΩ (2 unidades)</p>
+                        <p class="fs-6 mb-4">7. LEDs (4 unidades)</p>
+                        <p class="fs-6 mb-4">8. Cables</p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Ejercicio 1: Entrada digital botón.</p>
+                        <p class="fs-6 mb-4">Objetivo: Controlar el estado de un LED utilizando un botón pulsador.</p>
+                        <p class="fs-6 mb-4">Concepto clave: Lectura de entrada digital y control directo de salida.</p>
+                        <p class="fs-6 mb-4">Código:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E1.png" alt="..." /></figure>
+                        <br>
+                        <p class="fs-6 mb-4">Ejercicio 2: Entrada digital 2 botones.</p>
+                        <p class="fs-6 mb-4">Objetivo: Controlar dos LEDs independientes utilizando dos botones pulsadores.</p>
+                        <p class="fs-6 mb-4">Concepto clave: Manejo de múltiples entradas y salidas digitales.</p>
+                        <p class="fs-6 mb-4">Código:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E2.png" alt="..." /></figure>
+                        <br>
+                        <p class="fs-6 mb-4">Ejercicio 3: Entrada digital condicionales botón.</p>
+                        <p class="fs-6 mb-4">Objetivo: Implementar control condicional de un LED basado en el estado de un botón.</p>
+                        <p class="fs-6 mb-4">Concepto clave: Uso de estructuras condicionales en programación de Arduino.</p>
+                        <p class="fs-6 mb-4">Código:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E3.png" alt="..." /></figure>
+                        <br>
+                        <p class="fs-6 mb-4">Ejercicio 4: Entrada digital condicionales 2 botones.</p>
+                        <p class="fs-6 mb-4">Objetivo: Aplicar control condicional a dos LEDs utilizando dos botones independientes.</p>
+                        <p class="fs-6 mb-4">Concepto clave: Estructuras condicionales múltiples y manejo de estados.</p>
+                        <p class="fs-6 mb-4">Código:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E4.png" alt="..." /></figure>
+                        <br>
+                        <p class="fs-6 mb-4">Ejercicio 5: Contador LEDs.</p>
+                        <p class="fs-6 mb-4">Objetivo: Crear un contador visual utilizando LEDs y un botón para incrementar el conteo.</p>
+                        <p class="fs-6 mb-4">Concepto clave: Implementación de lógica de conteo y representación visual con LEDs.</p>
+                        <p class="fs-6 mb-4">Código:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E5_1.png" alt="..." /></figure>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E5_2.png" alt="..." /></figure>
+                        <br>
+                        <p class="fs-6 mb-4">Ejercicio 6: Condicionales OR botón.</p>
+                        <p class="fs-6 mb-4">Objetivo: Controlar un LED utilizando dos botones con una condición OR.</p>
+                        <p class="fs-6 mb-4">Concepto clave: Aplicación de operadores lógicos en condiciones de control.</p>
+                        <p class="fs-6 mb-4">Código:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E6.png" alt="..." /></figure>
+                        <br>
+                        <p class="fs-6 mb-4">Ejercicio 7: Condicionales AND botones.</p>
+                        <p class="fs-6 mb-4">Objetivo: Activar un LED solo cuando dos botones están presionados simultáneamente.</p>
+                        <p class="fs-6 mb-4">Concepto clave: Uso del operador lógico AND en condiciones de control.</p>
+                        <p class="fs-6 mb-4">Código:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E7.png" alt="..." /></figure>
+                        
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4">Todos los circuitos de esta práctica fueron simulados utilizando la plataforma Tinkercad. Esta herramienta en línea nos permitió experimentar con cada circuito de manera virtual antes de su implementación física.</p>
+                            <p class="fs-6 mb-4">La plataforma nos permitió la visualización clara de la disposición de los componentes y la prueba del código Arduino en un entorno virtual.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Tinkercad_All.png" alt="..." /></figure>
+                    
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">El proceso de diseño para cada circuito implicó la identificación de los componentes necesarios, la asignación de pines digitales apropiados en el Arduino UNO para entradas y salidas y la implementación del código Arduino correspondiente a cada ejercicio</p>
+                            <p class="fs-6 mb-4">Cada diseño estuvo enfocado en la claridad y la simplicidad, asegurando que las conexiones fueran fáciles de entender y replicar.</p>
+                            
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">Tras la simulación exitosa en Tinkercad, procedimos a la construcción física de cada circuito. El proceso de construcción incluyó los siguientes pasos:</p>
+                            <p class="fs-6 mb-4">1. Recopilación de todos los componentes físicos necesarios.</p>
+                            <p class="fs-6 mb-4">2. Montaje de los circuitos en una breadboard, siguiendo los diseños creados en Tinkercad.</p>
+                            <p class="fs-6 mb-4">3. Conexión cuidadosa de los componentes, asegurando la correspondencia con el diseño virtual.</p>
+                            <p class="fs-6 mb-4">4. Carga del código Arduino correspondiente en la placa física.</p>
+                            <p class="fs-6 mb-4">5. Prueba inicial del circuito para confirmar su funcionamiento.</p>
+                           
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">Los resultados obtenidos en la implementación física de los circuitos fueron consistentes con las simulaciones realizadas en Tinkercad.</p>
+                        <p class="fs-6 mb-4">Ejercicio 1: Entrada digital botón.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Entrada_Digital_Boton_1.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Ejercicio 2: Entrada digital 2 botones.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Entrada_Digital_Botones_2.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Ejercicio 3: Entrada digital condicionales botón.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Entrada_Digital_CondicionalesI_3.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Ejercicio 4: Entrada digital condicionales 2 botones.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Entrada_Digital_CondicionalesII_4.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Ejercicio 5: Contador LEDs.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Contador_LEDs.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Ejercicio 6: Condicionales OR botón.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Condicional_OR_6.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Ejercicio 7: Condicionales AND botones.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Condicional_AND_7.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">La práctica ha demostrado la versatilidad de las entradas digitales en Arduino y cómo pueden ser utilizadas para crear sistemas interactivos.</p>
+                        <p class="fs-6 mb-4">Hemos explorado desde controles simples de un solo botón hasta lógicas más complejas con múltiples entradas, permitiéndonos comprender mejor la programación de microcontroladores y su aplicación en sistemas electrónicos básicos.</p>
+                        
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

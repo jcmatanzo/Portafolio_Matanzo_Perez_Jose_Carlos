@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 5 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Práctica 5: Arduino 3</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/JCMP.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">José Carlos Matanzo Pérez</div>
+                                <div class="text-muted">Ingeniería Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+                        <br>
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                        <img class="img-fluid rounded-circle" width="50px" src="assets/CarlosV.jpg" alt="..." />
+                        <div class="ms-2">
+                            <div class="fw-bold">José Carlos Valencia Vázquez</div>
+                            <div class="text-muted">Ingeniería Mecatrónica</div>
+                        </div>
+                    <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Septiembre 13, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/Arduino_BP.jpeg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">Esta práctica se centró en el uso de la placa Arduino UNO para controlar servomotores, explorando diversas configuraciones y métodos de control. A través de una serie de 6 ejercicios progresivos, se abordaron desde conceptos básicos de control de un solo servomotor hasta aplicaciones más complejas con múltiples servos y potenciómetros.</p>
+                        <p class="fs-6 mb-4">Buscamos obtener una comprensión profunda de cómo integrar y programar servomotores en proyectos basados en Arduino.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Los servomotores son actuadores rotacionales o lineales que permiten un control preciso de la posición angular o lineal, velocidad y aceleración. Son componentes esenciales en robótica, automatización y muchos proyectos de electrónica.</p>
+                        <p class="fs-6 mb-4">Esta práctica utiliza el Arduino UNO para explorar las capacidades de control de servomotores en diferentes escenarios, desde el control básico hasta aplicaciones más avanzadas.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">1. Placa Arduino UNO.</p>
+                        <p class="fs-6 mb-4">2. Cable USB para la conexión con el ordenador.</p>
+                        <p class="fs-6 mb-4">3. Servomotores (1-2 unidades dependiendo del ejercicio).</p>
+                        <p class="fs-6 mb-4">4. Potenciómetros (1-2 unidades dependiendo del ejercicio).</p>
+                        <p class="fs-6 mb-4">5. Protoboard.</p>
+                        <p class="fs-6 mb-4">6. Cables de conexión.</p>
+                        <p class="fs-6 mb-4">7. Fuente de alimentación externa (para el último ejercicio).</p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">Para cada uno de los siguientes ejercicios, se realizaron simulaciones en Tinkercad y construcción física.</p>
+                        <br>
+                        <p class="fs-6 mb-4">1. Servo Básico.</p>
+                        <p class="fs-6 mb-4">Objetivo: Controlar la posición de un servomotor a una posición fija.</p>
+                        <p class="fs-6 mb-4">Componentes: Arduino UNO, servomotor.</p>
+                        <p class="fs-6 mb-4">Concepto clave: Uso básico de la librería Servo y control de posición fija.</p>
+                        <p class="fs-6 mb-4">Código:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E1.png" alt="..." /></figure>
+                        <br>
+                        <p class="fs-6 mb-4">2. Servomotor Varias Posiciones.</p>
+                        <p class="fs-6 mb-4">Objetivo: Mover un servomotor a través de diferentes posiciones de forma secuencial.</p>
+                        <p class="fs-6 mb-4">Componentes: Arduino UNO, servomotor.</p>
+                        <p class="fs-6 mb-4">Concepto clave: Control secuencial de posiciones del servomotor.</p>
+                        <p class="fs-6 mb-4">Código:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E2.png" alt="..." /></figure>
+                        <br>
+                        <p class="fs-6 mb-4">3. Servomotor y Potenciómetro.</p>
+                        <p class="fs-6 mb-4">Objetivo: Controlar la posición del servomotor mediante un potenciómetro.</p>
+                        <p class="fs-6 mb-4">Componentes: Arduino UNO, servomotor, potenciómetro.</p>
+                        <p class="fs-6 mb-4">Concepto clave: Concepto clave: Uso de entradas analógicas para controlar servomotores.</p>
+                        <p class="fs-6 mb-4">Código:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E3.png" alt="..." /></figure>
+                        <br>
+                        <p class="fs-6 mb-4">4. Dos Servomotores y Un Potenciómetro.</p>
+                        <p class="fs-6 mb-4">Objetivo: Controlar dos servomotores simultáneamente con un solo potenciómetro.</p>
+                        <p class="fs-6 mb-4">Componentes: Arduino UNO, 2 servomotores, potenciómetro.</p>
+                        <p class="fs-6 mb-4">Concepto clave: Control simultáneo de múltiples servomotores.</p>
+                        <p class="fs-6 mb-4">Código:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E4.png" alt="..." /></figure>
+                        <br>
+                        <p class="fs-6 mb-4">5. Dos Servomotores y Dos Potenciómetros.</p>
+                        <p class="fs-6 mb-4">Objetivo: Controlar dos servomotores independientemente con dos potenciómetros.</p>
+                        <p class="fs-6 mb-4">Componentes: Arduino UNO, 2 servomotores, 2 potenciómetros.</p>
+                        <p class="fs-6 mb-4">Concepto clave: Control independiente de múltiples servomotores.</p>
+                        <p class="fs-6 mb-4">Código:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E5_1.png" alt="..." /></figure>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E5_2.png" alt="..." /></figure>
+                        <br>
+                        <p class="fs-6 mb-4">6. Fuente Externa.</p>
+                        <p class="fs-6 mb-4">Objetivo: Utilizar una fuente de alimentación externa para los servomotores.</p>
+                        <p class="fs-6 mb-4">Componentes: Arduino UNO, servomotor, potenciómetro, fuente de alimentación externa.</p>
+                        <p class="fs-6 mb-4">Concepto clave: Uso de fuentes de alimentación externas para proyectos con mayor demanda de corriente.</p>
+                        <p class="fs-6 mb-4">Código:</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Codigo_E6.png" alt="..." /></figure>
+
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4">Todos los ejercicios fueron simulados utilizando la plataforma Tinkercad. Esta herramienta permitió crear circuitos virtuales y programar Arduino, proporcionando un entorno seguro para experimentar antes de la implementación física.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Tinkercad_All.png" alt="..." /></figure>
+                            
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">En la fase de diseño, se planificó cada circuito y se implementó el código necesario para controlar el Arduino UNO y los servomotores.</p>
+                            <p class="fs-6 mb-4">Esta etapa implicó la selección de componentes, la determinación de las conexiones necesarias y el análisis de la estructuración lógica del programa.</p>
+                            
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">La construcción de los circuitos involucró:</p>
+                            <p class="fs-6 mb-4">1. Conexión de servomotores a pines digitales de Arduino.</p>
+                            <p class="fs-6 mb-4">2. Conexión de potenciómetros a pines analógicos.</p>
+                            <p class="fs-6 mb-4">3. Programación del Arduino.</p>
+                            <p class="fs-6 mb-4">4. En el último ejercicio, integración de una fuente de alimentación externa.</p>
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">A lo largo de estos 6 ejercicios, se logró una progresión desde el control básico de un solo servomotor hasta configuraciones más complejas con múltiples servos y métodos de control.</p>
+                        <p class="fs-6 mb-4">Cada ejercicio construyó sobre el anterior, permitiendo una comprensión acumulativa de los conceptos y técnicas de programación necesarios para controlar eficientemente los servomotores con Arduino.</p>
+                        <p class="fs-6 mb-4">Ejercicio 1: Servo Básico</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejercicio_1.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Ejercicio 2: Servomotor Varias Posiciones</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejercicio_2.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Ejercicio 3: Servomotor y Potenciómetro</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejercicio_3.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Ejercicio 4: Dos Servomotores y Un Potenciómetro</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejercicio_4.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Ejercicio 5: Dos Servomotores y Dos Potenciómetros</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejercicio_5.mp4" type="video/mp4">
+                        </video></p></figure>
+                        <p class="fs-6 mb-4">Ejercicio 6: Fuente Externa</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Ejercicio_6.mp4" type="video/mp4">
+                        </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Se demostró la capacidad de Arduino para controlar con precisión la posición de los servomotores, ademas de cómo integrar efectivamente sensores para el control de actuadores.</p>
+                        <p class="fs-6 mb-4">Además de cumplir con los objetivos técnicos de la práctica, se obtubieron conocimientos prácticos importantes en el uso de Arduino para el control de servomotores, los cuales serán aplicables a múltiples proyectos en el futuro.</p>
+                        
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Arduino. (2023). Servo Library. https://www.arduino.cc/reference/en/libraries/servo/</p>
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
