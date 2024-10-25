@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 6 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Práctica 6: Brazo Robot</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/JCMP.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">José Carlos Matanzo Pérez</div>
+                                <div class="text-muted">Ingeniería Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+                        <br>
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                        <img class="img-fluid rounded-circle" width="50px" src="assets/CarlosV.jpg" alt="..." />
+                        <div class="ms-2">
+                            <div class="fw-bold">José Carlos Valencia Vázquez</div>
+                            <div class="text-muted">Ingeniería Mecatrónica</div>
+                        </div>
+                    <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Septiembre 20, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="400px" src="img/Brazo.jpg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">Esta práctica se centró en el diseño y fabricación de un brazo robot construido en MDF, cuyos movimientos son proporcionados por servomotores, controlado por un Arduino UNO y potenciómetos.</p>
+                        <p class="fs-6 mb-4">Buscamos relacionar diversos conocimientos aprendidos durante la materia para realizar un proyecto que integre diseño, electrónica y programación..</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">El brazo robótico es un dispositivo programado que busca completar una tarea específica, en este caso la manipulación de un objeto mediante una garra.</p>
+                        <p class="fs-6 mb-4">El brazo utiliza cuatro servomotores que controlan distintos movimientos, tales como el giro en el plano xy, elevación, extensión del brazo y la garra manipuladora.</p>
+                        <p class="fs-6 mb-4">Los movimientos son controlados mediante una placa Arduino UNO, cuyas entradas son manipuladas físicamente por el usuario a través de cuatro potenciómetros (uno por cada motor). La programación del arduino convierte el voltaje saliente del potenciómetro a una señal digital correspondiente a un valor de posición, esta señal le indica al servomotor a qué posición debe moverse.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">1. Placa Arduino UNO.</p>
+                        <p class="fs-6 mb-4">2. Cable USB para la conexión con el ordenador.</p>
+                        <p class="fs-6 mb-4">3. Servomotores (4 unidades).</p>
+                        <p class="fs-6 mb-4">4. Potenciómetros (4 unidades).</p>
+                        <p class="fs-6 mb-4">5. Protoboard.</p>
+                        <p class="fs-6 mb-4">6. Cables de conexión.</p>
+                        <p class="fs-6 mb-4">7. Fuente de alimentación externa (para el último ejercicio).</p>
+                        <p class="fs-6 mb-4">8. Partes cortadas en MDF de 3mm.</p>
+                        <p class="fs-6 mb-4">9. Tornillería.</p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">La estructura física del robot fue diseñada en el software de Solidworks y cortada en MDF de 3mm, está directamente inspirada en diseños presentados en clase.</p>
+
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4">El circuito y la programación fueron simulados en Tinkercad, la simulación mostró los resultados deseados.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Tinkercad_4M.png" alt="..." /></figure>
+                            
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">Para el diseño de la estructura medimos las dimensiones de otro robot, buscando mantener dimensiones y geometrías similares para garantizar un funcionamiento mecánico correcto, sin embargo, tuvimos que realizar correcciones en ciertas piezas para complir con las funciones requeridas.</p>
+                            <p class="fs-6 mb-4">El diseño está enfocado en mantener los servomotres y estructuras pesadas cerca de la base, esto nos permite mantener una estructura estable y realizar movimientos precisos, sacrificando grados de movimiento que nos podrían dar articulaciones motorizadas.</p>
+                            
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">La construcción de los circuitos involucró:</p>
+                            <p class="fs-6 mb-4">1. Corte de piezas en MDF.</p>
+                            <p class="fs-6 mb-4">2. Ensamble de las piezas utilizando tornillería.</p>
+                            <p class="fs-6 mb-4">3. Conexión de servomotores a pines digitales de Arduino.</p>
+                            <p class="fs-6 mb-4">4. Conexión de potenciómetros a pines analógicos.</p>
+                            <p class="fs-6 mb-4">5. Programación del Arduino.</p>
+                            <p class="fs-6 mb-4">6. Pruebas de funcionamiento inicial.</p>
+                            <p class="fs-6 mb-4">7. Correciones indicadas por el profesor; Nuevas piezas cortadas en MDF</p>
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">El robot fue capaz de recoger y mover una pelota y pasársela a otros robots; no obstante, encontramos ciertos problemas imprevistos. Dos de los servmotores experimentaron fallas severas en sus puertos de entrada digital, esto generó una variedad de problemas para controlar los movimientos, como una respuesta lenta o ninguna respuesta en lo absoluto. Adicionalmente, al extender el brazo después de cierto límite, el peso dificulta o imposibilita el regreso a la posición original sin asistencia humana./p>
+                        <p class="fs-6 mb-4">Para resolver estos problemas, pensamos utilizar componentes de mejor calidad, y asegurar más fuertemente las conexiones, también utilizaremos un servomotor más potente para el movimiento de extensión, facilitando el regreso a la posición inicial.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/Video_brazos_robots.mp4" type="video/mp4">
+                            </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Se logro cumplir con la meta de la prueba final, consiguiendo mover una pelota entre múltiples brazos, el trabajo colaborativo fue una parte importante de la practica, junto con la realización de un sistema funcial por cada equipo.</p>
+                        <p class="fs-6 mb-4">Logramos integrar conocimientos aprendidios a lo largo del semestre en un proyecto funcional, combinando elementos electrónicos, mecánicos y de programación en un sistema.</p>
+                        
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Arduino. (2023). Servo Library. https://www.arduino.cc/reference/en/libraries/servo/</p>
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Descargar archivo dxf brazo : <a href="files/Brazojc.DXF">archivo dxf</a> </p>
+                        <p class="fs-6 mb-4">Descargar archivo dxf base nueva: <a href="files/base_nueva.DXF">archivo dxf</a> </p>
+                        <p class="fs-6 mb-4">Descargar código arduino: <a href="files/Arduino_Code/Arduino_Code.ino">codigo ino</a> </p>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
