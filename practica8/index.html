@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 8 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Práctica 8: Brazo Robot Bluetooth</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/JCMP.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">José Carlos Matanzo Pérez</div>
+                                <div class="text-muted">Ingeniería Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+                        <br>
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                        <img class="img-fluid rounded-circle" width="50px" src="assets/CarlosV.jpg" alt="..." />
+                        <div class="ms-2">
+                            <div class="fw-bold">José Carlos Valencia Vázquez</div>
+                            <div class="text-muted">Ingeniería Mecatrónica</div>
+                        </div>
+                    <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Octubre 25, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Robótica</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Bluetooth</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="400px" src="img/Brazo.jpg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">Esta práctica se centró en la implementación de un sistema de control mediante Bluetooth al de brazo robot desarrollado en la práctica 6.</p>
+                        <p class="fs-6 mb-4">Utilizando la plataforma de MIT App Inventor, desarrollamos una aplicación para controlar las posiciones de los servomotores mediante diales.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Utilizando los conocimientos aprendidos durante la práctica 7, reemplazamos el sistema de control basado en potenciometros por la aplicación y el módulo HC05.</p>
+                        <p class="fs-6 mb-4">La interfaz de la aplicación cuenta con cuatro diales, cada uno correspondiente a uno de los servomotores. Al manipular los díales, se transmite un valor que identifica el servo cuya posición va a cambiar, seguido de un valor entre 0 y 180 que indica la posición deseada.</p>
+                        <p class="fs-6 mb-4">Al recibir los datos mediante el módulo HC05, el arduino procesa los valores enviados por la aplicación, moviendo los servomotores a las posiciones indicadas por los diales.</p>
+                        
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">1. Placa Arduino UNO.</p>
+                        <p class="fs-6 mb-4">2. Módulo Bluetooth HC05.</p>
+                        <p class="fs-6 mb-4">3. Cable USB para la conexión con el ordenador.</p>
+                        <p class="fs-6 mb-4">4. Servomotores (4 unidades).</p>
+                        <p class="fs-6 mb-4">5. Cables de conexión.</p>
+                        <p class="fs-6 mb-4">6. Fuente de alimentación externa.</p>
+                        <p class="fs-6 mb-4">7. Partes cortadas en MDF de 3mm.</p>
+                        <p class="fs-6 mb-4">8. Tornillería.</p>
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">La aplicación y el código de arduino fueron desarrollados al mismo tiempo para asegurnos de que los datos enviados desde el celular sean procesados correctamente.</p>
+                        <p class="fs-6 mb-4">El aspecto más importante del sistema fue la transmisión del valor que identifica el servo que queremos mover, para que posteriormente se mueva a la posición correspondiente al valor indicado por el dial.</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/MIT_App.jpg" alt="..." /></figure>
+                            
+                            <p id="diseño">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
+                            <p class="fs-6 mb-4">El diseño de la interfaz de la aplicación es simple, contando unicamente con 3 botones y 4 diales, los botones cumplen con funciones de conexión, desconexión y salida de la aplicación, mientras que los diales controlan el movimiento del brazo.</p>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Interfaz_App.jpg" alt="..." /></figure>
+                            
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">La construcción de los circuitos consistió unicamente en desinstalar el sistema de control basado en potenciómetros y conectar el módulo HC05.</p>
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">El brazo robot es capaz de cumplir con todas las funciones de movimiento esperadas, además de contar con mayor precisión y mejor tiempo de respuesta que con el sistema de potenciómetros.</p>
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/VBB.mp4" type="video/mp4">
+                            </video></p></figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Se cumplió la meta de la práctica, integrando de manera exitosa un sistema de control inalámbrico a un brazo mecánico.</p>
+                        <p class="fs-6 mb-4">Esta práctica nos demuestra la eficiencia de las conexiones inalámbricas para el control de maquinaria.</p>
+                        
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Arduino. (2023). Servo Library. https://www.arduino.cc/reference/en/libraries/servo/</p>
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Descargar archivo dxf brazo : <a href="files/Brazojc.DXF">archivo dxf</a> </p>
+                        <p class="fs-6 mb-4">Descargar archivo dxf base nueva: <a href="files/base_nueva.DXF">archivo dxf</a> </p>
+                        <p class="fs-6 mb-4">Descargar código arduino: <a href="files/Codigo_Arduino_BB/Codigo_Arduino_BB.ino">codigo ino</a> </p>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
